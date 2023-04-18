@@ -57,4 +57,26 @@ echo 'Testing Excercici 4 </br>';
 count102By2(20);
 count102By2(10000);
 
+//Exercici 5
+function calculateGrade($grade){
+    if ($grade < 33){
+        $status = "Reprovat";
+    }else if(($grade >= 33) && ($grade <= 44)){
+        $status = "Tercera Divisió";
+    }else if(($grade >= 45) && ($grade <= 59)){
+        $status = "Segona Divisió";
+    }else{
+        $status = "Primera Divisió";
+    }
+    echo "El grau del estudiant ets :  ". $status."</br>";
+
+}
+//Testing Excercici 5
+echo 'Testing Excercici 4 </br>';
+calculateGrade(25);
+calculateGrade(34);
+calculateGrade(49);
+calculateGrade(60);
+calculateGrade(63);
+
 ?>
