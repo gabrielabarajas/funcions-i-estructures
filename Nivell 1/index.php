@@ -79,4 +79,24 @@ calculateGrade(49);
 calculateGrade(60);
 calculateGrade(63);
 
+//Excercici 6
+function isBitten(){
+    $result = "False";
+    $rand = random_int(0,1);
+    if ($rand == 1){
+     $result = "True";
+    }
+    return $result;
+}
+
+//Testing Excercici 6
+$test1 = isBitten();
+$test2 = isBitten();
+$test3 = isBitten();
+
+echo 'Testing Excercici 4 </br>';
+echo "'$test1.'</br>";
+echo "'$test2.'</br>";
+echo "'$test3.'</br>";
+
 ?>
