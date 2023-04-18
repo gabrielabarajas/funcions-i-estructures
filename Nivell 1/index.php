@@ -27,20 +27,34 @@ function countTen2By2(){
         echo '</br>';
     }
 }
-
-//Testing Exercici 3
+//Testing Exercici 2
+echo 'Testing Excercici 2 </br>';
 countTen2By2();
 
+//Excercici 3
 function countNum2By2($num){
     for ($count= 0; $count<=$num; $count = $count+2){
         echo $count;
         echo '</br>';
     }
 }
-
-//Testing Exercici 2
+//Testing Exercici 3
+echo 'Testing Excercici 3 </br>';
 countNum2By2(20);
 countNum2By2(63);
 
+//Excercici 4
+function count102By2($num){
+    $num = 10;
+    for ($count= 0; $count<=$num; $count = $count+2){
+        echo $count;
+        echo '</br>';
+    }
+}
+
+//Testing Excercici 4
+echo 'Testing Excercici 4 </br>';
+count102By2(20);
+count102By2(10000);
 
 ?>
