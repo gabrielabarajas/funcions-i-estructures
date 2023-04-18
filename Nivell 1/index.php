@@ -12,12 +12,23 @@ echo $message;
 
 }
 
-//Testing
+//Testing Exercici 1
 $num1 = 48;
 $num2 = 47;
 
 evenOdd($num1);
 echo '</br>';
 evenOdd($num2);
+
+//Excercici 2
+function countTen2By2(){
+    for ($count= 0; $count<=10; $count = $count+2){
+        echo $count;
+        echo '</br>';
+    }
+}
+
+//Testing Exercici 2
+countTen2By2();
 
 ?>
