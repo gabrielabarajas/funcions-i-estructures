@@ -28,7 +28,19 @@ function countTen2By2(){
     }
 }
 
-//Testing Exercici 2
+//Testing Exercici 3
 countTen2By2();
+
+function countNum2By2($num){
+    for ($count= 0; $count<=$num; $count = $count+2){
+        echo $count;
+        echo '</br>';
+    }
+}
+
+//Testing Exercici 2
+countNum2By2(20);
+countNum2By2(63);
+
 
 ?>
