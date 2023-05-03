@@ -13,8 +13,8 @@ function showYears(){
 showYears();
 
 // Exercici 2
-function calculateCost($totSeconds){
-    $count = $totSeconds - 3;
+function calculateCost($totMinutes){
+    $count = $totMinutes - 3;
     $total = 0;
     
     if ($count < 3){
